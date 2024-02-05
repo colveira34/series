@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: hsl(240, 70%, 10%);
+}
+
+img {
+  width: 150px;
+  height: 80px;
+  padding: 9px;
+  margin-left: 4%;
+}
+
+.header {
+  background: linear-gradient(grey, black);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  flex-wrap: wrap;
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+  padding-left: 40px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding-right: 80px;
+}
+
+.nav-bar i {
+  font-size: 36px;
+  display: none;
+}
+
+#toogle-menu {
+  display: none;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+
+   /*.fondfondoCont1{
+    background: linear-gradient(black, grey);
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+   }*/
+
+.contenedor {
+  background: linear-gradient(black, grey);
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  align-content: center;
+}
+
+.h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  font-weight: 100;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: white;
+}
+
+.subContainer div a {
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(grey, red);
+  padding: 8px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+div a:hover {
+  background: #1a72dc;
+}
+
+.imgGift3 {
+  width: 400px;
+  height: 300px;
+}
+
+.imgGift3_1 {
+  width: 400px;
+  height: 300px;
+}
+
+/***ANIMACION****/
+
+h1 {
+  animation-duration: 1s;
+  animation-name: move;
+  text-decoration: underline;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-1000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/**ANIMACION ELEMENTO P (SACAR LUEGO)***/
+/*
+p{
+   animation-duration: 1s;
+   animation-name: move2;
+}*/
+@keyframes move2 {
+  from {
+    transform: translateY(1000px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+/****MEDIA QUERIE****/
+@media (max-width: 576px) {
+  .nav-bar ul {
+    background-color: #272d37;
+    opacity: 0.7;
+    border-radius: 0 0 20px 20px;
+    border: 5px solid blue;
+    border-top: none;
+    width: 90%;
+    height: calc(100vh-80px);
+    position: absolute;
+    top: 80px;
+    left: 5%;
+    flex-direction: column;
+    padding: 10px;
+
+    display: none;
+  }
+
+  .nav-bar i {
+    display: block;
+  }
+
+  #toogle-menu:checked ~ .nav-list {
+    display: flex;
+  }
+
+  h1 {
+    animation-duration: 1s;
+    animation-name: move;
+  }
+
+  .move {
+    animation-name: move;
+  }
+
+  @keyframes move {
+    from {
+      transform: translatey(1000px);
+    }
+    to {
+      transform: translatey(0);
+    }
+  }
+  /*
+    .imgGift3 {
+      width: 300px;
+      height: 220px;
+      margin-left: 1%;
+    }
+
+    .imgGift3_1 {
+      width: 300px;
+      height: 220px;
+      margin-left: 1%;
+      position:relative;
+      bottom: 68px;
+      margin-bottom: 20px;  
+    }*/
+
+  div a {
+    position: absolute;
+    bottom: 65px;
+    left: 25%;
+  }
+
+  h3 {
+    text-align: center;
+    line-height: 25px;
+    padding-right: 10px;
+    margin-top: 1px;
+    position: relative;
+    bottom: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .imgGift3 {
+    width: 250px;
+    height: 205px;
+    margin-left: 1%;
+    bottom: 25px;
+  }
+
+  .imgGift3_1 {
+    width: 250px;
+    height: 205px;
+    margin-left: 1%;
+    position: relative;
+    bottom: 50px;
+    margin-bottom: 180px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h3 {
+    text-align: center;
+    line-height: 25px;
+    padding-right: 10px;
+    margin-top: 1px;
+    position: relative;
+    bottom: 25px;
+  }
+  div a {
+    position: relative;
+    bottom: 40px;
+    left: 25%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 24px;
+  }
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 100%;
+  }
+
+  h3 {
+    text-align: center;
+    width: 170px;
+  }
+
+  div a {
+    position: relative;
+    bottom: 10px;
+    left: 12%;
+  }
+
+  .imgGift3_1 {
+    width: 400px;
+    height: 300px;
+    margin-left: 2%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 24px;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+
+  div a {
+    position: relative;
+    left: 15%;
+    bottom: 20px;
+  }
+}
