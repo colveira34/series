@@ -161,7 +161,7 @@ p {
 }
 
 /*PLANES DE SUSCRIPCION*/
-.ajustarH2{
+.ajustarH2 {
   color: white;
   font-size: 40px;
   text-align: center;
@@ -214,7 +214,7 @@ button {
   bottom: 5px;
 }
 
-.btn2{
+.btn2 {
   font-size: 14px;
   width: 30%;
   margin-top: 20px;
@@ -254,20 +254,19 @@ button {
 }
 
 .imgPlanGold {
-  width:26%;
+  width: 26%;
   height: 100%;
 }
 
-
 /*POSTERS DE ANIMES*/
-.container6{
-  display:flex;
+.container6 {
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  gap:20px;
+  gap: 20px;
 }
 
-.ajustar2fila{
+.ajustar2fila {
   margin-top: 20px;
 }
 
@@ -277,17 +276,17 @@ button {
   border-radius: 20px 20px 0 0;
 }
 
-.foto1{
+.foto1 {
   width: 350px;
   height: 400px;
- background-color: grey;
- border-radius: 20px;
+  background-color: grey;
+  border-radius: 20px;
 }
-.foto1:hover{
-  background-color: #87CEFA;
+.foto1:hover {
+  background-color: #87cefa;
 }
 
-.btnPoster1{
+.btnPoster1 {
   background: linear-gradient(grey, red);
   width: 20%;
   font-size: 16px;
@@ -295,20 +294,19 @@ button {
   margin-left: 145px;
 }
 
-
-.inputP1{
+.inputP1 {
   width: 30px;
   height: 30px;
 }
 
-.btnMas{
+.btnMas {
   background: linear-gradient(grey, red);
   width: 10%;
   font-size: 20px;
   border-radius: 10px;
 }
 
-.btnMenos{
+.btnMenos {
   background: linear-gradient(grey, red);
   width: 10%;
   font-size: 20px;
@@ -316,14 +314,14 @@ button {
   margin-left: 130px;
 }
 
-.btnPoster1:hover{
+.btnPoster1:hover {
   background: orange;
 }
-.btnMas:hover{
+.btnMas:hover {
   background: orange;
 }
 
-.btnMenos:hover{
+.btnMenos:hover {
   background: orange;
 }
 
@@ -334,22 +332,22 @@ button {
   margin-top: 40px;
 }
 
-.claseH{
+.claseH {
   font-size: 40px;
   text-align: center;
-  color:white;
+  color: white;
   margin-top: 40px;
   padding-bottom: 20px;
 }
-.h5{ 
-  color:white;
+.h5 {
+  color: white;
   text-align: center;
   font-size: 30px;
   margin-top: 60px;
   padding-bottom: 20px;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -357,34 +355,34 @@ button {
   margin-top: 10px;
   width: 100%;
   background-color: grey;
-  gap:20px;
+  gap: 20px;
 }
 
-.imgMapa{
+.imgMapa {
   width: 35%;
   height: 100%;
   padding: 10px 10px;
   border-radius: 50px;
 }
-.btnForm{
+.btnForm {
   background: linear-gradient(grey, red);
   width: 60%;
   font-size: 20px;
   border-radius: 10px;
   margin-top: 10px;
 }
-form{
-  color:white;
+form {
+  color: white;
   width: 11rem;
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
   font-size: 23px;
 }
 
-.container a:hover{
+.container a:hover {
   background: skyblue;
-  color:black;
+  color: black;
 }
 
 /***ANIMACION****/
@@ -422,7 +420,7 @@ p{
 
 /****MEDIA QUERIE****/
 
-@media (min-width:320px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 576px) {
   .nav-bar ul {
     background-color: #272d37;
     opacity: 0.7;
@@ -447,175 +445,167 @@ p{
     display: flex;
   }
 
-  .container{
+  .container {
     display: flex;
     flex-direction: column;
   }
-  .h3{
+  .h3 {
     text-align: center;
     width: 95%;
   }
 
-  .img2{
-    width:100%
+  .img2 {
+    width: 100%;
   }
 
-  .claseH2{
+  .claseH2 {
     text-align: center;
   }
-  .claseHH2{
+  .claseHH2 {
     text-align: center;
   }
 
-  .container5{
+  .container5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     bottom: 120px;
   }
-  .caja1{
+  .caja1 {
     width: 75%;
     height: 50%;
   }
 
-  .ajustarH2{
+  .ajustarH2 {
     position: relative;
     bottom: 80px;
   }
-   
-  .container6{
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    bottom:70px;
-  }
 
- 
-
-  .img3 {
-    width: 300px;
-    height: 300px;
-    border-radius: 20px 20px 0 0;
-  }
-  
-  .foto1{
-    width: 300px;
-    height: 400px;
-   background-color: grey;
-   border-radius: 20px;
-  }
- 
-   .claseHH3{
-    position: relative;
-    bottom: 120px;
-   }
-   .claseH{
-    position: relative;
-    bottom: 60px;
-   }
-}
-
-@media (max-width:768px){
-  .container3{
+  .container6 {
     display: flex;
     flex-wrap: wrap;
     position: relative;
     bottom: 70px;
   }
 
-  .container4{
+  .img3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .foto1 {
+    width: 300px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 20px;
+  }
+
+  .claseHH3 {
+    position: relative;
+    bottom: 120px;
+  }
+  .claseH {
+    position: relative;
+    bottom: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 70px;
+  }
+
+  .container4 {
     display: flex;
     flex-wrap: wrap;
     position: relative;
     bottom: 100px;
   }
 
-  .container5{
+  .container5 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .caja1{
+  .caja1 {
     width: 75%;
     height: 50%;
   }
 
-  .container6{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap:10px;
-  }
-
-  
-  .img3 {
-    width: 300px;
-    height: 300px;
-    border-radius: 20px 20px 0 0;
-  }
-  
-  .foto1{
-    width: 300px;
-    height: 400px;
-   background-color: grey;
-   border-radius: 20px;
-  }
-
- .btnMenos{
-  margin-left: 32%;
- }
-
- .btnPoster1{
-  margin-left: 38%;
- }
-
-}
-
-@media (min-width:768px) and (max-width:1200px){
-  .container5{
+  .container6 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .caja1{
-    width: 75%;
-    height: 50%;
-  }
-
-  .btn{
-    width:30%;
-  }
-
-  .container6{
-    display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:10px;
+    gap: 10px;
   }
-
 
   .img3 {
     width: 300px;
     height: 300px;
     border-radius: 20px 20px 0 0;
   }
-  
-  .foto1{
+
+  .foto1 {
     width: 300px;
     height: 400px;
-   background-color: grey;
-   border-radius: 20px;
+    background-color: grey;
+    border-radius: 20px;
   }
-  
-  .btnMenos{
+
+  .btnMenos {
     margin-left: 32%;
-   }
-  
-   .btnPoster1{
+  }
+
+  .btnPoster1 {
     margin-left: 38%;
-   }
+  }
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .caja1 {
+    width: 75%;
+    height: 50%;
+  }
 
+  .btn {
+    width: 30%;
+  }
 
+  .container6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .img3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .foto1 {
+    width: 300px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 20px;
+  }
+
+  .btnMenos {
+    margin-left: 32%;
+  }
+
+  .btnPoster1 {
+    margin-left: 38%;
+  }
+}
