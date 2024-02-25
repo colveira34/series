@@ -30,7 +30,6 @@ body {
   left: 0;
   flex-wrap: wrap;
   z-index: 10;
-  
 }
 
 .nav-list {
@@ -111,14 +110,6 @@ p {
   text-align: center;
   color: white;
   font-size: 20px;
-}
-
-.h2 {
-  background: linear-gradient(grey, pink) text;
-  color: transparent;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 60px;
 }
 
 .claseH2 {
@@ -216,43 +207,9 @@ button {
   bottom: 5px;
 }
 
-.btn2 {
-  font-size: 14px;
-  width: 30%;
-  margin-top: 20px;
-}
-
-/*PREMIUM*/
-
-.caja2 {
-  background-color: gray;
-  border-radius: 30px;
-  border: 5px solid white;
-  width: 20%;
-  height: 290px;
-  text-align: center;
-}
-.c2 {
-  font-size: 30px;
-}
-
 .imgPlanPremimum {
   width: 35%;
   height: 100%;
-}
-
-/**GOLD*/
-.caja3 {
-  background-color: gray;
-  border-radius: 30px;
-  border: 5px solid white;
-  width: 20%;
-  height: 35vh;
-  text-align: center;
-}
-
-.c3 {
-  font-size: 30px;
 }
 
 .imgPlanGold {
@@ -301,7 +258,7 @@ button {
   height: 30px;
 }
 
-input{
+input {
   width: 250px;
 }
 
@@ -361,7 +318,7 @@ input{
   margin-top: 40px;
   width: 100%;
   background-color: grey;
-  gap: 20px;
+  gap: 100px;
 }
 
 .imgMapa {
@@ -391,6 +348,76 @@ form {
   color: black;
 }
 
+.containerFooter {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: rgba(0, 100, 100, 0.5);
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+.imgInsta {
+  width: 32px;
+  height: 32px;
+}
+.imgFace {
+  width: 32px;
+  height: 32px;
+}
+
+.imgX {
+  width: 32px;
+  height: 32px;
+}
+
+.resaltarElemento {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.containerFooter p a {
+  background: none;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.containerFooter p a:hover {
+  background: linear-gradient(orange, grey);
+}
+
+/***SECTION SERIES****/
+.ajustar {
+  margin-top: 120px;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+.ajustar2 {
+  margin-top: 120px;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+.containerSeries {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.containerSeries2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
 /***ANIMACION****/
 
 h1 {
@@ -405,22 +432,6 @@ h1 {
   }
   to {
     transform: translateX(0);
-  }
-}
-
-/**ANIMACION ELEMENTO P (SACAR LUEGO)***/
-/*
-p{
-   animation-duration: 1s;
-   animation-name: move2;
-}*/
-@keyframes move2 {
-  from {
-    transform: translateY(1000px);
-  }
-
-  to {
-    transform: translateY(0);
   }
 }
 
@@ -441,7 +452,6 @@ p{
     flex-direction: column;
     padding: 10px;
     display: none;
-   
   }
 
   .nav-bar i {
@@ -517,26 +527,32 @@ p{
     position: relative;
     bottom: 60px;
   }
-  
-  form{
+
+  form {
     padding-bottom: 10px;
     padding-top: 20px;
     position: relative;
-    left: 6%;
+    right: 14%;
   }
 
-  .h5{
+  .h5 {
     position: relative;
-    top:10px;
+    top: 10px;
   }
 
-  .footer{
+  .footer {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
 @media (max-width: 768px) {
+  .containerSeries {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .container3 {
     display: flex;
     flex-wrap: wrap;
@@ -589,29 +605,32 @@ p{
     margin-left: 38%;
   }
 
-  .footer{
+  .footer {
     display: flex;
     flex-direction: column;
+    gap: 20px;
   }
 
-  .imgMapa{
+  .imgMapa {
     width: 100%;
   }
 
+  .h5 {
+    position: relative;
+    bottom: 20px;
+  }
 
- .h5{
-   position: relative;
-   bottom: 20px;
- }
+  form {
+    position: relative;
+    right: 14%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  
-  form{
-    padding-bottom: 10px;
-    padding-top: 20px;
- }
-   
+  .containerSeries {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   .container5 {
     display: flex;
